@@ -16,7 +16,7 @@ export default function Navbar() {
           <li className="flex flex-row justify-around items-center gap-x-5">
             <Link href="https://github.com/Pedraum1/Ivor-Front-End">
               <p
-                className="text-4xl text-ivor-100 hover:text-ivor-200
+                className="hidden md:block text-4xl text-ivor-100 hover:text-ivor-200
                             transition-colors ease-in-out"
               >
                 <FaGithub />
@@ -29,7 +29,7 @@ export default function Navbar() {
                             items-center gap-x-1"
               >
                 <FaUser className="text-3xl" />
-                <p className="text-normal">Login</p>
+                <p className="text-normal hidden md:block ">Login</p>
               </div>
             </Link>
           </li>

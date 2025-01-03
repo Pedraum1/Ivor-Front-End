@@ -15,12 +15,13 @@ export default function Home() {
 
         <main>
           <article
-            className="my-48 flex flex-col items-start justify-between
-                       w-7/12 mx-auto"
+            className="my-48 flex flex-col items-start justify-between w-[90%] sm:w-5/6
+                       md:w-3/4 lg:w-7/12 mx-auto"
           >
             <h1
-              className="xl:text-[6rem] font-bold xl:tracking-tight text-center
-                         leading-none text-ivor-100 mx-auto"
+              className="xl:text-[6rem] lg:text-[5rem] md:text-[4rem] text-[3rem]
+                         font-bold xl:tracking-tight text-center leading-none
+                         text-ivor-100 mx-auto"
             >
               Conecte-se ao mundo com a Ivor
             </h1>
