@@ -1,5 +1,4 @@
 import Title from "./Title";
-import Button from "./Button";
 import { FaGithub } from "react-icons/fa";
 import { FaUser } from "react-icons/fa6";
 import Link from "next/link";
