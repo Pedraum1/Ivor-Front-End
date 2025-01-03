@@ -1,13 +1,11 @@
-import "./globals.css";
-
 export const metadata = {
   title: "Ivor",
 };
 
-export default function RootLayout({ children }) {
+export default function AuthLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="">
         {children}
       </body>
     </html>
