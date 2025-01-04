@@ -8,7 +8,7 @@ export default function Login() {
     <>
       <Box name="Login">
         <Input type="text" name="emailInput" title="Email" />
-        <Input type="password" name="passwordInput" title="Password" />
+        <Input type="password" name="passwordInput" title="Senha" />
         <p className="text-end">
           <a href="" className="text-ivor-500 underline block">
             Esqueceu sua senha?

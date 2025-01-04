@@ -8,11 +8,11 @@ export default function Register() {
     <>
       <Box name="Register">
         <Input type="text" name="emailInput" title="Email" />
-        <Input type="password" name="passwordInput" title="Password" />
+        <Input type="password" name="passwordInput" title="Senha" />
         <Input
           type="password"
           name="confirmPasswordInput"
-          title="Confirm Password"
+          title="Confirme sua senha"
         />
         <p className="text-end">
           <Link href="/login" className="text-ivor-500 underline block">
