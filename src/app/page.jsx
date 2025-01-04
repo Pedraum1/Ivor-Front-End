@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div
         className="bg-gradient-to-b from-ivor-900 via-ivor-600
-                 to-ivor-900 min-h-screen text-ivor-950"
+                 to-ivor-900 min-h-screen"
       >
         <header>
           <Navbar />
