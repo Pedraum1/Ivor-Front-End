@@ -52,7 +52,7 @@ export default function Home() {
         </main>
         <article
           className="absolute bottom-0 left-1/2 -translate-x-1/2 mb-5
-                   text-ivor-100"
+                   text-ivor-100 text-sm md:text-lg w-full text-center"
         >
           Developed by Vikings - Web Developer
         </article>
