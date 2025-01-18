@@ -1,6 +1,6 @@
-import Box from "../auth_components/box";
-import Input from "../auth_components/input";
-import Button from "../auth_components/button";
+import Box from "../components/box";
+import Input from "../components/input";
+import Button from "../components/button";
 import Link from "next/link";
 
 export default function Login() {
