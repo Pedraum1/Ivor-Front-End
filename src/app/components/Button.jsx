@@ -1,7 +1,12 @@
-export default function Button({ children }){
-    return <>
-        <button className="text-ivor-100">
-            {children}
-        </button>
-    </>;
+export default function Button({ children, action }) {
+  return (
+    <>
+      <button
+        className="text-center bg-ivor-100 text-ivor-950 px-6 py-3 rounded-full"
+        onClick={action}
+      >
+        {children}
+      </button>
+    </>
+  );
 }

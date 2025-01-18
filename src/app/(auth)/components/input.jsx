@@ -7,7 +7,7 @@ export default function Input({ type, name, title }) {
 
   return (
     <>
-      <div>
+      <div className="mt-8">
         <label htmlFor={name} className="text-start text-xl font-medium ms-4">
           {title}
         </label>
@@ -19,7 +19,7 @@ export default function Input({ type, name, title }) {
             id={name}
             className="w-full border-b bg-ivor-50 border-ivor-200 pt-3 px-4 pb-1
                    focus:outline-none text-lg font-medium focus:border-ivor-500
-                   mb-8 block"
+                   block"
           />
           {type == "password" ? (
             inputType == "password" ? (
