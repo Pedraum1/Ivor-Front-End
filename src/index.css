@@ -1,1 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+    --color-ivor-50: #f3faf9;
+    --color-ivor-100: #d7f0ee;
+    --color-ivor-200: #a3d6d0;
+    --color-ivor-300: #7ecac8;
+    --color-ivor-400: #49b7b4;
+    --color-ivor-500: #368789;
+    --color-ivor-600: #2b6d72;
+    --color-ivor-700: #1a4242;
+    --color-ivor-800: #23494c;
+    --color-ivor-900: #1f2828;
+    --color-ivor-950: #0e2225;
+
+    --font-*: initial;
+    --font-ivor: "Roboto", "sans-serif"
+
+}
