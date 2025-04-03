@@ -1,6 +1,6 @@
 import Logo from "../../components/Logo.jsx";
 import NavLink from "./NavLink.jsx";
-import PostModal from "../../components/CreatePostModal.jsx";
+import PostModal from "./CreatePostModal.jsx";
 
 export default function LeftBar() {
   return (
